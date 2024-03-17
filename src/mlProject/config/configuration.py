@@ -32,7 +32,7 @@ class ConfigurationManager:
         return data_ingestion_config
     
 
-     def get_data_validation_config(self) -> DataValidationConfig:
+    def get_data_validation_config(self) -> DataValidationConfig:
         config = self.config.data_validation
         schema = self.schema.COLUMNS
 
